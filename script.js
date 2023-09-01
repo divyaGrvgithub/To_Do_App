@@ -5,7 +5,7 @@ function addTask(){
     if(inputBox.value === ''){
         alert("Enter your Today Task ! ");
     }
-    else{
+    else{  
         let li =document.createElement("li");
         li.innerHTML=inputBox.value;
         listContainer.appendChild(li);
